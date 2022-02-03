@@ -107,7 +107,7 @@ console.log(5 === 6)
 console.log(5 > 6)
 console.log(5 === 6)
 console.log(10 === 10)
-console.log(10 == 10)
+// console.log(10 == 10)
 console.log(10 < 10)
 console.log(10 !== 10)
 console.log(10 > 10)
@@ -117,7 +117,7 @@ console.log(123 == "123")
 // - Подумайте Какие значения выведет в окно браузера следующий фрагмент кода?
 // и почему?
 let str = "20";
-// let a = 5;
+let a = 5;
 document.write(str + a + "<br/>");
 document.write(str - a + "<br/>");
 document.write(str * "2" + "<br/>");
