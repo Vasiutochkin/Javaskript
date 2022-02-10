@@ -127,3 +127,6 @@
 
 // let masa = [1,2,3,4,5,6,7,8,5,9];
 // console.log(masa.reverse());
+
+// let masa = [[1,[2]],3,[4,5,[[6,7],8],5],9];
+// console.log(masa.flat(7));
