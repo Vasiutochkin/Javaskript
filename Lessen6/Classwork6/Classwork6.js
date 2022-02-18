@@ -65,14 +65,11 @@
 // sortNums('ascending') // [3,11,21]
 // sortNums('descending') // [21,11,3]
 
-
-
-let sortNums = (arr, direction) => {
-    if (direction === 'asc') return arr.sort((a, b) => a - b);
-    if (direction === 'desc') return arr.sort((a, b) => b - a);
-};
-console.log(sortNums([1, 56, 9, -20, 2345, 34, 98, 5], 'desc') );
-
+// let sortNums = (arr, direction) => {
+//     if (direction === 'asc') return arr.sort((a, b) => a - b);
+//     if (direction === 'desc') return arr.sort((a, b) => b - a);
+// };
+// console.log(sortNums([1, 56, 9, -20, 2345, 34, 98, 5], 'asc'));
 
 
 // - є масив
@@ -84,6 +81,27 @@ console.log(sortNums([1, 56, 9, -20, 2345, 34, 98, 5], 'desc') );
 //     {title: 'FullStack', monthDuration: 7},
 //     {title: 'Frontend', monthDuration: 4}
 // ];
-// -- відсортувати його за спаданням за monthDuration
-// -- відфільтрувати , залишивши тільки курси з тривалістю більше 5 місяців
-// //
+// // -- відсортувати його за спаданням за monthDuration
+// // let sort = coursesAndDurationArray.sort((a, b) => a.monthDuration - b.monthDuration);
+// // console.log(sort)
+//
+// // -- відфільтрувати , залишивши тільки курси з тривалістю більше 5 місяців
+// let filter = coursesAndDurationArray.filter((value) => {
+//     return value.monthDuration > 5;
+// });
+// console.log(filter)
+
+// - Напишите функцию cutString(str, n), которая делит строку на подстроки, состоящие из n символов.
+// document.writeln(cutString('наслаждение',3)) // [нас,лаж,ден,ие]
+// const cutString = (text,n) => {
+// let res = [];
+// while (text.length) {
+//     res.push(text.substr(0,n))
+//     text = text.slice(n)
+// }
+//     console.log(res)
+//     return res
+// }
+// document.write(cutString("наслаждение",3))
+
+
